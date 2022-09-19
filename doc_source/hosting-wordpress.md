@@ -172,7 +172,7 @@ WordPress permalinks need to use Apache `.htaccess` files to work properly, but 
 1. Open the `httpd.conf` file with your favorite text editor \(such as nano or vim\)\. If you do not have a favorite text editor, `nano` is suitable for beginners\.
 
    ```
-   [ec2-user ~]$ sudo vim /etc/httpd/conf/httpd.conf
+   [ec2-user ~]$ sudo nano /etc/httpd/conf/httpd.conf
    ```
 
 1. Find the section that starts with `<Directory "/var/www/html">`\.
